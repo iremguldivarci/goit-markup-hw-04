@@ -41,6 +41,10 @@ figure {
 
 .header {
     border-bottom: 1px solid #E7E9fC;
+    box-shadow: 
+    0px 2px 1px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -78,8 +82,10 @@ figure {
     letter-spacing: 0.03em;
     margin-left: 140px;
     margin-right: 76px;
-    color: #4D5AE5;
+    color: #404bbf;
     font-weight: 700;
+    position: relative;
+
 }
 
 .nav-logo .logo-span {
