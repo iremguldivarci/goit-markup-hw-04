@@ -79,7 +79,8 @@ figure {
     color: #2e2f42;
     padding: 24px 0;
     position: relative;
-    color: #404bbf
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list::after {
@@ -91,8 +92,6 @@ figure {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .nav-list:hover,
@@ -128,15 +127,15 @@ figure {
     color: #404bbf;
 }
 
-.hero-box {
+.hero {
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(../images/hero-image.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 1440px 600px;
-    width: 1440px;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
     height: 600px;
     position: relative;
 }
@@ -175,7 +174,7 @@ figure {
     padding-left: 32px;
     gap: 10px;
     box-shadow: 0px 4px 4px 0px #00000026;
-    ;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
