@@ -40,99 +40,73 @@ figure {
 }
 
 .header {
-    border-bottom: 1px solid #E7E9fC;
-    box-shadow: 
-    0px 2px 1px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px rgba(46, 47, 66, 0.16), 
-    0px 1px 6px rgba(46, 47, 66, 0.08);
+    border-bottom: 1px solid #E7E9FC;
 }
 
-.container {
+.header-box {
     display: flex;
-    width: 1440px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
-.row {
+.nav-menu {
     display: flex;
-    flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
-    justify-content: space-between;
-}
-
-.column {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.justify-between {
-    justify-content: space-between;
-}
-
-.align-center {
     align-items: center;
 }
 
 .nav-logo {
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    margin-left: 140px;
-    margin-right: 76px;
-    color: #404bbf;
     font-weight: 700;
-    position: relative;
-
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px
 }
 
-.nav-logo .logo-span {
-    color: #2E2F42;
-}
-
-.navigation .navigation-list {
+.nav-ul {
     display: flex;
     gap: 40px;
-    align-items: center;
+    ;
 }
 
-.navigation .navigation-list .navigation-item {
+.nav-list {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     padding: 24px 0;
 }
 
-.navigation .navigation-list .navigation-item .navigation-link {
-    display: block;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    font-weight: 500;
-}
-
-.navigation .navigation-list .navigation-item .navigation-link:hover,
-.navigation .navigation-list .navigation-item .navigation-link:focus {
+.nav-list:hover,
+.nav-list:focus {
     color: #404bbf;
 }
 
-.address .address-list {
+.nav-span {
+    color: #2e2f42;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-ul {
     display: flex;
     gap: 40px;
-    margin-left: 350px;
+    ;
 }
 
-.address .address-list .address-item .address-link {
+.address-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
-    font-weight: 400;
 }
 
-.address .address-list .address-item .address-link:hover,
-.address .address-list .address-item .address-link:focus {
+.address-list:hover,
+.address-list:focus {
     color: #404bbf;
 }
-
 
 .hero-box {
     background-image: linear-gradient(to bottom,
