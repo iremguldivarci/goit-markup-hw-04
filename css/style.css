@@ -199,23 +199,6 @@ figure {
     overflow: hidden;
 }
 
-.feature-list {
-    display: flex;
-    width: 1128px;
-    height: 224px;
-    gap: 8px;
-    justify-content: space-between;
-    position: relative;
-    left: 156px;
-    top: 92px;
-}
-
-.feature-box {
-    width: 264px;
-    height: 224px;
-    gap: 8px;
-}
-
 .svg-box {
     width: 264px;
     height: 112px;
